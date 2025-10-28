@@ -54,8 +54,8 @@ export default function Home() {
   
   // ===== NOTES CONFIGURATION =====
   const notes = [
-    { id: 1, title: "SSID - 506-1", content: "Bruteforce@506-1" },
-    { id: 2, title: "SSID - 506-2", content: "Bruteforce@506-2" },
+    { id: 1, title: "SSID - 605-1", content: "Bruteforce@605-1" },
+    { id: 2, title: "SSID - 605-2", content: "Bruteforce@605-2" },
   ];
   // ==============================
 
