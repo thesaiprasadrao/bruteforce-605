@@ -13,9 +13,9 @@ export default function Home() {
   const CODING_YEAR = 2025;
   
   // ===== MENTORING ROUND START TIME =====
-  const MENTORING_HOURS = 7; // Changed to number
-  const MENTORING_MINUTES = 0; // Changed to number
-  const MENTORING_AM_PM: "AM" | "PM" = "PM"; // Explicitly typed
+  const MENTORING_HOURS = 11; // Changed to number
+  const MENTORING_MINUTES = 30; // Changed to number
+  const MENTORING_AM_PM: "AM" | "PM" = "AM"; // Explicitly typed
   const MENTORING_MONTH = 10;
   const MENTORING_DAY = 28;
   const MENTORING_YEAR = 2025;
@@ -54,8 +54,8 @@ export default function Home() {
   
   // ===== NOTES CONFIGURATION =====
   const notes = [
-    { id: 1, title: "SSID - 605-1", content: "Bruteforce@605-1" },
-    { id: 2, title: "SSID - 605-2", content: "Bruteforce@605-2" },
+    { id: 1, title: "SSID - 506-1", content: "Bruteforce@506-1" },
+    { id: 2, title: "SSID - 506-2", content: "Bruteforce@506-2" },
   ];
   // ==============================
 
