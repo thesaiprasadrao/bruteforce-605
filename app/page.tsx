@@ -5,8 +5,8 @@ import { Particles } from "@/components/ui/particles";
 import { ShineBorder } from "@/components/ui/shine-border";
 export default function Home() {
   // ===== CODING ROUND END TIME =====
-  const CODING_HOURS = 6; // Changed to number
-  const CODING_MINUTES = 30; // Changed to number
+  const CODING_HOURS = 5; // Changed to number
+  const CODING_MINUTES = 0; // Changed to number
   const CODING_AM_PM: "AM" | "PM" = "PM"; // Explicitly typed
   const CODING_MONTH = 10;
   const CODING_DAY = 28;
