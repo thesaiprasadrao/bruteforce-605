@@ -146,7 +146,7 @@ export default function Home() {
           {/* Bottom - Mentoring Round Timer */}
           <div className="flex flex-col items-center justify-center">
             <div className="text-2xl md:text-4xl font-bold text-white mb-4 text-center mt-30">
-              MENTORING ROUND 2 STARTS IN
+              MENTORING ROUND 2 HAS
             </div>
             {mentoringTime.isExpired ? (
               <div className="text-white text-4xl md:text-6xl font-bold">Started!</div>
