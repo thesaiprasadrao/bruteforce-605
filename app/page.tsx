@@ -56,6 +56,7 @@ export default function Home() {
   const notes = [
     { id: 1, title: "SSID - 605-1", content: "Bruteforce@605-1" },
     { id: 2, title: "SSID - 605-2", content: "Bruteforce@605-2" },
+    {id:3 , title: "Video Submission" , content: "A 3-minute demo video to be prepared and submitted on devfolio."},
   ];
   // ==============================
 
