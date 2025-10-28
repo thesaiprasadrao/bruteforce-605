@@ -13,9 +13,9 @@ export default function Home() {
   const CODING_YEAR = 2025;
   
   // ===== MENTORING ROUND START TIME =====
-  const MENTORING_HOURS = 11; // Changed to number
-  const MENTORING_MINUTES = 30; // Changed to number
-  const MENTORING_AM_PM: "AM" | "PM" = "AM"; // Explicitly typed
+  const MENTORING_HOURS = 3; // Changed to number
+  const MENTORING_MINUTES = 0; // Changed to number
+  const MENTORING_AM_PM: "AM" | "PM" = "PM"; // Explicitly typed
   const MENTORING_MONTH = 10;
   const MENTORING_DAY = 28;
   const MENTORING_YEAR = 2025;
@@ -145,7 +145,7 @@ export default function Home() {
           {/* Bottom - Mentoring Round Timer */}
           <div className="flex flex-col items-center justify-center">
             <div className="text-2xl md:text-4xl font-bold text-white mb-4 text-center mt-30">
-              MENTORING ROUND 1 STARTS IN
+              MENTORING ROUND 2 STARTS IN
             </div>
             {mentoringTime.isExpired ? (
               <div className="text-white text-4xl md:text-6xl font-bold">Started!</div>
